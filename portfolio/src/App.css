@@ -11,8 +11,10 @@ html {
 html,
 body,
 #root {
+    min-height: 100vh;
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 
@@ -29,17 +31,32 @@ body,
 }
 
 .about {
-    background: #fbda52; 
+    background: #f3da75; 
 }
 
 .contact {
-    background: #54943f;
+    background: #7ccc62;
 }
 
 .work {
-    background: #22548c;
+    background: #5484bb;
 }
 
 .tech-stack {
-    background: #de6c40;
+    background: #d37956;
 }
+
+.home {
+    position: relative;
+    background: url('./assets/sumanth.png') 80% -20% no-repeat;
+    /* filter: grayscale(40%); */
+}
+
+/* .intro {
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(0,0,0,0.5);
+} */
+
+
