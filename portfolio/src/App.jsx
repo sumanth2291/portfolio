@@ -5,7 +5,6 @@ import { BrowserRouter as Router } from "react-router-dom";
 // Components
 import Main from './components/Main';
 import Navigation from './components/Navigation';
-import Loader from './components/Loader';
 
 // Styles
 import './App.css';
@@ -17,6 +16,7 @@ class App extends Component {
     return (
       <Router>
         <div className="App">
+          <Navigation />
           <Main />
         </div>
       </Router>

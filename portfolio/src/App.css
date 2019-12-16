@@ -49,14 +49,7 @@ body,
 .home {
     position: relative;
     background: url('./assets/sumanth.png') 80% -20% no-repeat;
-    /* filter: grayscale(40%); */
 }
 
-/* .intro {
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    background-color: rgba(0,0,0,0.5);
-} */
 
 
